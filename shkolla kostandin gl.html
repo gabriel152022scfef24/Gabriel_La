@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faqja e Shkollës</title>
+    <style>
+        body {
+            background-image: url('background.jpg'); /* Zëvendëso 'background.jpg' me emrin e imazhit të dëshiruar */
+            background-size: cover;
+            background-position: center;
+            color: #fff; /* Ngjyra e shkronjave */
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: green;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: green;
+            color: #fff;
+            padding: 10px;
+            position: absolute;
+            top: 10px; /* Ndryshimi i pozicionit nga fundi */
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mirësevini në faqen e Shkollës "Kostandin Kristoforidhi" Elbasan</h1>
+    </header>
+
+    <footer>
+        Të gjitha të drejtat e rezervuara Shkolla Kostandin Kristoforidhi &copy; 2024 <br>
+        Krijuar nga Gabriel Laloshi
+    </footer>
+
+    <button id="hyrjeButoni">Hyni në link</button>
+
+    <script>
+        document.getElementById('hyrjeButoni').addEventListener('click', function() {
+            window.location.href = "https://www.facebook.com/kostandin.k/?locale=sq_AL";
+        });
+    </script>
+</body>
+</html>
